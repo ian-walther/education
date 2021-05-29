@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Stocks
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    %nav.navbar.navbar-dark.bg-dark
+      %div.container
+        %span.navbar-brand.mb-0.h1
+          College Search Engine
+    %div.container
+      %div.d-flex.justify-content-center
+        %div
+          = yield
