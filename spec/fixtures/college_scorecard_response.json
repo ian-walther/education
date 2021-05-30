@@ -1,0 +1,334 @@
+{
+    "metadata": {
+        "page": 0,
+        "total": 5,
+        "per_page": 20
+    },
+    "results": [
+        {
+            "school": {
+                "zip": "18052",
+                "city": "Whitehall",
+                "name": "Empire Beauty  School-Lehigh Valley",
+                "alias": null,
+                "state": "PA",
+                "locale": 21,
+                "search": "Empire Beauty  School-Lehigh Valley",
+                "branches": 11,
+                "men_only": 0,
+                "operating": 1,
+                "ownership": 3,
+                "region_id": 2,
+                "accreditor": "National Accrediting Commission of Career Arts and Sciences",
+                "school_url": "www.empire.edu",
+                "state_fips": 42,
+                "women_only": 0,
+                "main_campus": 1,
+                "online_only": 0,
+                "carnegie_basic": -2,
+                "faculty_salary": null,
+                "ownership_peps": 3,
+                "accreditor_code": "NACCAS",
+                "ft_faculty_rate": null,
+                "carnegie_undergrad": -2,
+                "degree_urbanization": null,
+                "under_investigation": 0,
+                "price_calculator_url": "www.empire.edu/net-price-calculator",
+                "carnegie_size_setting": -2,
+                "minority_serving": {
+                    "annh": 0,
+                    "nant": 0,
+                    "aanipi": 0,
+                    "tribal": 0,
+                    "hispanic": 0,
+                    "historically_black": 0,
+                    "predominantly_black": 0
+                },
+                "religious_affiliation": null,
+                "open_admissions_policy": 1,
+                "title_iv": {
+                    "approval_date": "5/21/1970",
+                    "eligibility_type": 1
+                },
+                "degrees_awarded": {
+                    "highest": 1,
+                    "predominant": 1,
+                    "predominant_recoded": 1
+                },
+                "tuition_revenue_per_fte": 10016,
+                "instructional_expenditure_per_fte": 6498,
+                "institutional_characteristics": {
+                    "level": 3
+                }
+            },
+            "location": {
+                "lat": 40.63006,
+                "lon": -75.485471
+            },
+            "id": 212328,
+            "ope6_id": "009664",
+            "ope8_id": "00966400",
+            "fed_sch_cd": "009664"
+        },
+        {
+            "school": {
+                "zip": "18078-2598",
+                "city": "Schnecksville",
+                "name": "Lehigh Carbon Community College",
+                "alias": "LCCC",
+                "state": "PA",
+                "locale": 21,
+                "search": "Lehigh Carbon Community College LCCC",
+                "branches": 1,
+                "men_only": 0,
+                "operating": 1,
+                "ownership": 1,
+                "region_id": 2,
+                "accreditor": "Middle States Commission on Higher Education",
+                "school_url": "www.lccc.edu",
+                "state_fips": 42,
+                "women_only": 0,
+                "main_campus": 1,
+                "online_only": 0,
+                "carnegie_basic": 5,
+                "faculty_salary": 6860,
+                "ownership_peps": 1,
+                "accreditor_code": "MSACHE",
+                "ft_faculty_rate": 0.194,
+                "carnegie_undergrad": 1,
+                "degree_urbanization": null,
+                "under_investigation": 0,
+                "price_calculator_url": "https://www.lccc.edu/tuition-financial-aid/net-price-calculator",
+                "carnegie_size_setting": 3,
+                "minority_serving": {
+                    "annh": 0,
+                    "nant": 0,
+                    "aanipi": 0,
+                    "tribal": 0,
+                    "hispanic": 1,
+                    "historically_black": 0,
+                    "predominantly_black": 0
+                },
+                "religious_affiliation": null,
+                "open_admissions_policy": 1,
+                "title_iv": {
+                    "approval_date": "5/1/1967",
+                    "eligibility_type": 1
+                },
+                "degrees_awarded": {
+                    "highest": 2,
+                    "predominant": 2,
+                    "predominant_recoded": 2
+                },
+                "tuition_revenue_per_fte": 5167,
+                "instructional_expenditure_per_fte": 4872,
+                "institutional_characteristics": {
+                    "level": 2
+                }
+            },
+            "location": {
+                "lat": 40.66474,
+                "lon": -75.610715
+            },
+            "id": 213525,
+            "ope6_id": "006810",
+            "ope8_id": "00681000",
+            "fed_sch_cd": "006810"
+        },
+        {
+            "school": {
+                "zip": "18015",
+                "city": "Bethlehem",
+                "name": "Lehigh University",
+                "alias": null,
+                "state": "PA",
+                "locale": 13,
+                "search": "Lehigh University",
+                "branches": 1,
+                "men_only": 0,
+                "operating": 1,
+                "ownership": 2,
+                "region_id": 2,
+                "accreditor": "Middle States Commission on Higher Education",
+                "school_url": "www.lehigh.edu",
+                "state_fips": 42,
+                "women_only": 0,
+                "main_campus": 1,
+                "online_only": 0,
+                "carnegie_basic": 16,
+                "faculty_salary": 13517,
+                "ownership_peps": 2,
+                "accreditor_code": "MSACHE",
+                "ft_faculty_rate": 0.827,
+                "carnegie_undergrad": 14,
+                "degree_urbanization": null,
+                "under_investigation": 0,
+                "price_calculator_url": "https://npc.collegeboard.org/student/app/lehigh",
+                "carnegie_size_setting": 13,
+                "minority_serving": {
+                    "annh": 0,
+                    "nant": 0,
+                    "aanipi": 0,
+                    "tribal": 0,
+                    "hispanic": 0,
+                    "historically_black": 0,
+                    "predominantly_black": 0
+                },
+                "religious_affiliation": null,
+                "open_admissions_policy": 2,
+                "title_iv": {
+                    "approval_date": "12/1/1965",
+                    "eligibility_type": 1
+                },
+                "degrees_awarded": {
+                    "highest": 4,
+                    "predominant": 3,
+                    "predominant_recoded": 3
+                },
+                "tuition_revenue_per_fte": 29693,
+                "instructional_expenditure_per_fte": 23519,
+                "institutional_characteristics": {
+                    "level": 1
+                }
+            },
+            "location": {
+                "lat": 40.606822,
+                "lon": -75.380236
+            },
+            "id": 213543,
+            "ope6_id": "003289",
+            "ope8_id": "00328900",
+            "fed_sch_cd": "003289"
+        },
+        {
+            "school": {
+                "zip": "18034-8447",
+                "city": "Center Valley",
+                "name": "Pennsylvania State University-Penn State Lehigh Valley",
+                "alias": "Penn State",
+                "state": "PA",
+                "locale": 21,
+                "search": "Pennsylvania State University-Penn State Lehigh Valley Penn State",
+                "branches": 23,
+                "men_only": 0,
+                "operating": 1,
+                "ownership": 1,
+                "region_id": 2,
+                "accreditor": "Middle States Commission on Higher Education",
+                "school_url": "lehighvalley.psu.edu/",
+                "state_fips": 42,
+                "women_only": 0,
+                "main_campus": 0,
+                "online_only": 0,
+                "carnegie_basic": 22,
+                "faculty_salary": 7392,
+                "ownership_peps": 1,
+                "accreditor_code": "MSACHE",
+                "ft_faculty_rate": 0.5119,
+                "carnegie_undergrad": 12,
+                "degree_urbanization": null,
+                "under_investigation": 0,
+                "price_calculator_url": "tuition.psu.edu/CostEstimate.aspx",
+                "carnegie_size_setting": 6,
+                "minority_serving": {
+                    "annh": 0,
+                    "nant": 0,
+                    "aanipi": 0,
+                    "tribal": 0,
+                    "hispanic": 0,
+                    "historically_black": 0,
+                    "predominantly_black": 0
+                },
+                "religious_affiliation": null,
+                "open_admissions_policy": 2,
+                "title_iv": {
+                    "approval_date": "12/1/1965",
+                    "eligibility_type": 1
+                },
+                "degrees_awarded": {
+                    "highest": 4,
+                    "predominant": 3,
+                    "predominant_recoded": 3
+                },
+                "tuition_revenue_per_fte": 6139,
+                "instructional_expenditure_per_fte": 4786,
+                "institutional_characteristics": {
+                    "level": 1
+                }
+            },
+            "location": {
+                "lat": 40.559208,
+                "lon": -75.402507
+            },
+            "id": 214670,
+            "ope6_id": "003329",
+            "ope8_id": "00332902",
+            "fed_sch_cd": "003329"
+        },
+        {
+            "school": {
+                "zip": "18018-3906",
+                "city": "Bethlehem",
+                "name": "Lehigh Valley Barber School",
+                "alias": null,
+                "state": "PA",
+                "locale": 13,
+                "search": "Lehigh Valley Barber School",
+                "branches": 1,
+                "men_only": 0,
+                "operating": 1,
+                "ownership": 3,
+                "region_id": 2,
+                "accreditor": "National Accrediting Commission of Career Arts and Sciences",
+                "school_url": "www.lehighvalleybarberschool.com",
+                "state_fips": 42,
+                "women_only": 0,
+                "main_campus": 1,
+                "online_only": 0,
+                "carnegie_basic": -2,
+                "faculty_salary": null,
+                "ownership_peps": 3,
+                "accreditor_code": "NACCAS",
+                "ft_faculty_rate": null,
+                "carnegie_undergrad": -2,
+                "degree_urbanization": null,
+                "under_investigation": 0,
+                "price_calculator_url": "www.lehighvalleybarberschool.com/financial-options/",
+                "carnegie_size_setting": -2,
+                "minority_serving": {
+                    "annh": 0,
+                    "nant": 0,
+                    "aanipi": 0,
+                    "tribal": 0,
+                    "hispanic": 0,
+                    "historically_black": 0,
+                    "predominantly_black": 0
+                },
+                "religious_affiliation": null,
+                "open_admissions_policy": 1,
+                "title_iv": {
+                    "approval_date": "12/11/2017",
+                    "eligibility_type": 1
+                },
+                "degrees_awarded": {
+                    "highest": 1,
+                    "predominant": 1,
+                    "predominant_recoded": null
+                },
+                "tuition_revenue_per_fte": 5645,
+                "instructional_expenditure_per_fte": 460,
+                "institutional_characteristics": {
+                    "level": 3
+                }
+            },
+            "location": {
+                "lat": 40.639992,
+                "lon": -75.346918
+            },
+            "id": 491677,
+            "ope6_id": "042673",
+            "ope8_id": "04267300",
+            "fed_sch_cd": "042673"
+        }
+    ]
+}
