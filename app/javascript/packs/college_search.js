@@ -58,31 +58,35 @@ function disable_loading_spinner() {
 }
 
 function show_in_google_maps(names_and_locations) {
-    map = new google.maps.Map(document.getElementById("map"), {
-        center: {lat: 39.8097343, lng: -98.5556199},
-        zoom: 3,
-    });
-
-    const infoWindow = new google.maps.InfoWindow();
-    const bounds = new google.maps.LatLngBounds();
-
-    names_and_locations.forEach((element, i) => {
-        let position = element.location;
-        const marker = new google.maps.Marker({
-            position,
-            map,
-            title: element.name,
-            label: (i + 1).toString(),
-            optimized: false
+    if (names_and_locations.length > 0) {
+        map = new google.maps.Map(document.getElementById("map"), {
+            center: {lat: 39.8097343, lng: -98.5556199},
+            zoom: 3,
         });
 
-        bounds.extend(marker.position)
+        const infoWindow = new google.maps.InfoWindow();
+        const bounds = new google.maps.LatLngBounds();
 
-        marker.addListener("click", () => {
-            infoWindow.close();
-            infoWindow.setContent(marker.getTitle());
-            infoWindow.open(marker.getMap(), marker);
-        })
-    });
-    map.fitBounds(bounds);
+        names_and_locations.forEach((element, i) => {
+            let position = element.location;
+            const marker = new google.maps.Marker({
+                position,
+                map,
+                title: element.name,
+                label: (i + 1).toString(),
+                optimized: false
+            });
+
+            bounds.extend(marker.position)
+
+            marker.addListener("click", () => {
+                infoWindow.close();
+                infoWindow.setContent(marker.getTitle());
+                infoWindow.open(marker.getMap(), marker);
+            })
+        });
+        map.fitBounds(bounds);
+    } else {
+        alert("No results were found.");
+    }
 }
