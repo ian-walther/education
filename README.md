@@ -15,6 +15,10 @@ Upon loading the page, the user will be greeted with a page consisting of a sear
 The browser will auto-focus on the search box, and the user can use the Enter key to submit the input.
 The application will return a list of search results within the Google Maps display.
 
+## Running In Production
+
+On an instance that already has docker installed, run `docker-compose build && docker-compose up -d` to start the application.
+
 ##Notes About Implementation
 Given the simplicity of the application, most of the implementation is purely academic.
 I intentionally implemented the College Scorecard integration using the backend for the purposes of demonstrating how I would implement a backend service object and to show how I would test a service object.
@@ -24,4 +28,4 @@ Similarly, acceptance tests have been omitted because the vast majority of the f
 
 Bootstrap was used as the front end component library for purposes of simplicty; if the app were to be implemented with a Javascript framework, things would be quite different.
 Furthermore, JQuery was used heavily in the application because it was in scope due to Bootstrap's dependency on it.
-If the application were to become more complex, a Javascript library such as Angular or React would make much more sense.
+If the application were to become more complex, a Javascript library such as Angular or React would make more sense.
